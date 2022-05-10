@@ -1,9 +1,9 @@
 <template>
-  <div id="main-div">
+  <v-app id="main-div">
     <NuxtLayout name="custom">
       <NuxtPage/>
     </NuxtLayout>
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -13,4 +13,3 @@ export default {
   
 }
 </script>
-

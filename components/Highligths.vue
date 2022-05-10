@@ -1,6 +1,6 @@
 <template>
-    <div class="rodape">
-        footer
+    <div>
+        highligths
     </div>
 </template>
 
@@ -11,10 +11,5 @@
 </script>
 
 <style lang="scss" scoped>
-.rodape {
-    width: 100%;
-    height: 100px;
 
-    border-color: blue;
-}
 </style>

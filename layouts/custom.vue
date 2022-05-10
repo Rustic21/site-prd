@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layout1">
     <the-header></the-header>
     <div class="container-layout">
         <slot></slot>
@@ -15,6 +15,9 @@
 </script>
 
 <style lang="scss" scoped>
+.layout1 {
+}
+
 .container-layout {
     min-height: calc(100vh - 164px)
 }
