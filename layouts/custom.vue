@@ -1,5 +1,6 @@
 <template>
   <div class="layout1">
+    
     <the-header></the-header>
     <div class="container-layout">
         <slot></slot>
@@ -16,6 +17,7 @@
 
 <style lang="scss" scoped>
 .layout1 {
+  overflow-y: scroll ;
 }
 
 .container-layout {

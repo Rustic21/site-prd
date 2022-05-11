@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'ALGER';
+	src: url('@/assets/font/ALGER.eot');
+	src: local('ALGER'), url('@/assets/font/ALGER.woff') format('woff'), url('@/assets/font/ALGER.ttf') format('truetype');
+
+}
+h1 {
+    font-family: "ALGER";
+}
+
 
 body {
     margin: 0px;
